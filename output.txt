@@ -1,0 +1,27 @@
+
+The Algorithm Program Bubble Edition
+
+nThe filepath for the input is: /Users/williamwilkes/Desktop/Learning_Python/input.txt
+The filepath for the output is: /Users/williamwilkes/Desktop/Learning_Python/output.txt 
+The algorithm selected was: Bubble
+
+ The unsorted array is:
+2 3 4 5 93 324 12 53 666 77 324 2 34 11 1 2 6 3 7 4 6 5 8 7 6 7 8 9 99 97 45 67 23 87 22 
+
+ The sorted array is:
+1 2 2 2 3 3 4 4 5 5 6 6 6 7 7 7 8 8 9 11 12 22 23 34 45 53 67 77 87 93 97 99 324 324 666 
+
+--------------------------------------------------------------------------------------------------------
+The Algorithm Program Bubble Edition
+
+nThe filepath for the input is: /Users/williamwilkes/Desktop/Learning_Python/input.txt
+The filepath for the output is: /Users/williamwilkes/Desktop/Learning_Python/output.txt 
+The algorithm selected was: Bubble
+
+ The unsorted array is:
+2 3 4 5 93 324 12 53 666 77 324 2 34 11 1 2 6 3 7 4 6 5 8 7 6 7 8 9 99 97 45 67 23 87 22 
+
+ The sorted array is:
+1 2 2 2 3 3 4 4 5 5 6 6 6 7 7 7 8 8 9 11 12 22 23 34 45 53 67 77 87 93 97 99 324 324 666 
+
+--------------------------------------------------------------------------------------------------------
