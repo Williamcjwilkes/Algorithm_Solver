@@ -38,7 +38,7 @@ class sortClass:
         with open(self.outputFile, 'a') as Write:
             Write.write(str(f"\nThe Algorithm Program {self.algorithm} Edition\n"))
 
-            Write.write(f"\nnThe filepath for the input is: {self.inputFile}\nThe filepath for the output is: {self.outputFile} \nThe algorithm selected was: {self.algorithm}\n")
+            Write.write(f"\nThe filepath for the input is: {self.inputFile}\nThe filepath for the output is: {self.outputFile} \nThe algorithm selected was: {self.algorithm}\n")
             
             Write.write(str("\n The unsorted array is:\n"))
             # write each value in the unsorted array to the file

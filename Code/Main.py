@@ -40,7 +40,10 @@ sorting.readFile()
 
 sorting.sortedArray = sorting.unsortedArray.copy()
 
-Algorithm_Functions.Bubble_Sort(sorting.sortedArray)
+if sorting.algorithm == "bubble" or "bubblesort":
+    Algorithm_Functions.Bubble_Sort(sorting.sortedArray)
+elif sorting.algorithm == "merge" or "mergesort":
+    Algorithm_Functions.Merge_Sort(sorting.sortedArray)
 
 #tesing the outputfile
 sorting.writeFile()

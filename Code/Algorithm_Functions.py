@@ -20,9 +20,40 @@ def Bubble_Sort(arr):
     return arr
 
             
-#implements the Bubble Sort algorithm.
-def Merge_Sort():
-    print("user selected Merge_Sort algorithm") 
+#implements the Merge Sort algorithm.
+def Merge_Sort(arr):
+    if len(arr) > 1:
+        # Divide the array into two arrays
+        mid = len(arr)//2
+        # Dividing the array elements into 2 halves
+        L = arr[:mid]
+        R = arr[mid:]
+        # Sorting the two arrays and the divide them. 
+        Merge_Sort(L)
+        Merge_Sort(R)
+        
+        i = j = k = 0
+        
+        # Merge the sorted sub arrays back into the original array
+        while i < len(L) and j < len(R):
+            if L[i] <= R[j]:
+                arr[k] = L[i]
+                i += 1
+            else:
+                arr[k] = R[j]
+                j += 1
+            k += 1
+
+        # Checking if any element was left
+        while i < len(L):
+            arr[k] = L[i]
+            i += 1
+            k += 1
+
+        while j < len(R):
+            arr[k] = R[j]
+            j += 1
+            k += 1
     
 #implements the Bubble Sort algorithm.
 def Insertion_Sort():

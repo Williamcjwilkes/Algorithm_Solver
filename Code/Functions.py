@@ -8,6 +8,7 @@ Author: William Charles Jeffery Wilkes
 '''
 
 import os
+import Algorithm_Functions
 
 #functionn for validating the string is a path and a valid filename
 def is_valid_filename(filename):
@@ -38,4 +39,6 @@ def is_lowercase_alpha(string):
     else:
         print("Error: sorting algorithm '{string}' could not be determined.")
         return False
+
+
 
